@@ -1,0 +1,21 @@
+{
+  "name": "docker_project",
+  "version": "1.0.0",
+  "description": "A Node.js project running inside Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "nodejs",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0"
+  }
+}
